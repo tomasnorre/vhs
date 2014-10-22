@@ -30,11 +30,13 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
 /**
  * Class XSSViewHelper
  * @package Vhs
- * @subpackage ViewHelpers\Security
+ * @subpackage ViewHelpers\Format
  */
 class XssViewHelper extends \TYPO3\CMS\Fluid\Core\ViewHelper\AbstractViewHelper {
 
 	/**
+	 * Removes XSS from string
+	 *
 	 * @param string $string
 	 * @return string
 	 */
